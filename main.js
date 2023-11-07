@@ -93,30 +93,40 @@ productList.push({
     name: "Bike",
     price: 120,
     img: "https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    alt: "bike",
+    description: "It's just another bike.",
 });
 
 productList.push({
     name: "TV",
     price: 400,
     img: "https://images.pexels.com/photos/333984/pexels-photo-333984.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    alt: "tv",
+    description: "It's just another TV.",
 });
 
 productList.push({
     name: "PC",
     price: 500,
     img: "https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    alt: "pc",
+    description: "It's just another PC.",
 });
 
 productList.push({
     name: "Cellphone",
     price: 330,
     img: "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    alt: "cellphone",
+    description: "It's just another cellphone.",
 });
 
 productList.push({
     name: "Car",
     price: 10000,
     img: "https://images.pexels.com/photos/3802510/pexels-photo-3802510.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    alt: "car",
+    description: "It's just another car.",
 });
 
 function renderProducts(products) {
